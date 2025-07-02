@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("{{TOKEN}}")  # Ce token sera remplacé automatiquement par le bot manager
+bot = telebot.TeleBot("{{TOKEN}}")  # Le token sera remplacé automatiquement
 
 @bot.message_handler(commands=['start'])
 def start(message):
